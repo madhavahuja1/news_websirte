@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <div class="Container">
+        <nav>
+            <div class="logo">
+                <h1> Breaking News</h1>
+
+                <li id="politics" onclick="navClick('politics')">Politic's</li>
+                <li id= "sports"onclick="navClick('sports')">Sports</li>
+                <li id="technology"onclick="navClick('technology')">Technology</li>
+                
+
+            </div>
+            <div class="category">
+                <h1 id="type"></h1>
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Search " value="" id="inputData">
+                <button id="searchbtn">Search</button>
+            </div>
+        </nav>
+        <div class="cardData">
+
+        </div>
+    </div>
+    <script src="news.js"></script>
+</body>
+</html>
